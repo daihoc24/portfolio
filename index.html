@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nguyen Hoang Quy — Fullstack Developer." />
+    <title>Nguyen Hoang Quy | Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a class="brand" href="#home"><span>&lt;</span>Quy<span> /&gt;</span></a>
+      <nav aria-label="Main navigation">
+        <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode"><span aria-hidden="true">☼</span></button>
+      <span class="scroll-progress" id="scroll-progress" aria-hidden="true"></span>
+    </header>
+
+    <main>
+      <section id="home" class="hero container">
+        <div class="hero-copy reveal">
+          <p class="availability"><i></i> Available for opportunities</p>
+          <h1>Hi, I'm Quy</h1>
+          <p class="role"><span id="typewriter" aria-label="Fullstack Developer">Fullstack Developer</span></p>
+          <p class="summary">I build clear, reliable web applications — from polished frontend experiences to scalable APIs and databases.</p>
+          <div class="hero-actions"><a class="button primary" href="#projects">View my work <span>↗</span></a><a class="button" href="assets/CV_NguyenHoangQuy.pdf" target="_blank">View CV <span>↓</span></a></div>
+        </div>
+        <div class="code-card reveal" aria-label="Developer profile code snippet">
+          <div class="code-head"><span><i></i><i></i><i></i></span><small>developer.ts</small></div>
+          <pre><code><b>const</b> developer = {
+  name: <em>"Nguyen Hoang Quy"</em>,
+  role: <em>"Fullstack Developer"</em>,
+  stack: [<em>"React"</em>, <em>"NestJS"</em>],
+  focus: <em>"clean products"</em>
+};</code></pre>
+        </div>
+        <a class="scroll" href="#about">↓</a>
+      </section>
+
+      <section id="about" class="section container">
+        <h2 class="about-title">About <span>Me</span></h2>
+        <div class="about-grid reveal">
+          <div class="about-copy"><p>I'm a Fullstack Developer based in Ho Chi Minh City, focused on building clean, maintainable web applications. I work across React, Next.js, Node.js and NestJS to turn business requirements into reliable products.</p><p>My experience includes enterprise HRMS and ERP systems, product management platforms, and API-driven applications. I enjoy improving the details that make a product easier to use and easier to evolve.</p><div class="about-stats"><div><b>1+</b><span>Years experience</span></div><div><b>3</b><span>Core projects</span></div><div><b>700</b><span>TOEIC score</span></div></div></div>
+          <div class="terminal-card"><div class="terminal-head"><span><i></i><i></i><i></i></span><small>about.txt</small></div><pre><code><b>$</b> cat about.txt
+
+Name:  Nguyen Hoang Quy
+Role:  Fullstack Developer
+Based: Ho Chi Minh City, Vietnam
+
+I build maintainable interfaces,
+REST APIs and data-driven web
+applications with modern tools.
+
+Currently strengthening backend
+architecture with NestJS, .NET,
+databases and clean code.
+
+<b>$</b> <span class="terminal-cursor">_</span></code></pre></div>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2 class="stack-title">Tech <span>Stack</span></h2>
+        <div class="chip-groups reveal">
+          <div><h3>// Frontend</h3><p><span><img src="https://cdn.simpleicons.org/react/38bdf8" alt="" />React</span><span><img src="https://cdn.simpleicons.org/typescript/38bdf8" alt="" />TypeScript</span><span><img src="https://cdn.simpleicons.org/javascript/38bdf8" alt="" />JavaScript</span><span><img src="https://cdn.simpleicons.org/nextdotjs/38bdf8" alt="" />Next.js</span><span><img src="https://cdn.simpleicons.org/vuedotjs/38bdf8" alt="" />Vue.js</span><span><img src="https://cdn.simpleicons.org/nuxtdotjs/38bdf8" alt="" />Nuxt.js</span><span><img src="https://cdn.simpleicons.org/html5/38bdf8" alt="" />HTML5</span><span><img src="https://cdn.simpleicons.org/css/38bdf8" alt="" />CSS3</span><span><img src="https://cdn.simpleicons.org/tanstack/38bdf8" alt="" />React Query</span></p></div>
+          <div><h3>// Backend</h3><p><span><img src="https://cdn.simpleicons.org/nodedotjs/38bdf8" alt="" />Node.js</span><span><img src="https://cdn.simpleicons.org/nestjs/38bdf8" alt="" />NestJS</span><span><img src="https://cdn.simpleicons.org/dotnet/38bdf8" alt="" />ASP.NET Core</span><span><i>C#</i>C#</span><span><i>⌘</i>REST APIs</span><span><i>◇</i>JWT Auth</span><span><img src="https://cdn.simpleicons.org/swagger/38bdf8" alt="" />Swagger</span></p></div>
+          <div><h3>// Data & tools</h3><p><span><img src="https://cdn.simpleicons.org/postgresql/38bdf8" alt="" />PostgreSQL</span><span><img src="https://cdn.simpleicons.org/mysql/38bdf8" alt="" />MySQL</span><span><i>SQL</i>SQL Server</span><span><img src="https://cdn.simpleicons.org/prisma/38bdf8" alt="" />Prisma ORM</span><span><img src="https://cdn.simpleicons.org/git/38bdf8" alt="" />Git</span><span><img src="https://cdn.simpleicons.org/github/38bdf8" alt="" />GitHub</span><span><img src="https://cdn.simpleicons.org/gitlab/38bdf8" alt="" />GitLab</span><span><img src="https://cdn.simpleicons.org/docker/38bdf8" alt="" />Docker</span><span><img src="https://cdn.simpleicons.org/jira/38bdf8" alt="" />Jira</span><span><img src="https://cdn.simpleicons.org/postman/38bdf8" alt="" />Postman</span></p></div>
+          <div><h3>// Workflow</h3><p><span><img src="https://cdn.simpleicons.org/redux/38bdf8" alt="" />Redux Toolkit</span><span><i>Z</i>Zustand</span><span><i>◌</i>Context API</span><span><i>↗</i>Agile / Scrum</span><span><i>⌘</i>Codex</span><span><img src="https://cdn.simpleicons.org/anthropic/38bdf8" alt="" />Claude</span><span><img src="https://cdn.simpleicons.org/cursor/38bdf8" alt="" />Cursor</span><span><i>AI</i>AI-DLC</span></p></div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2 class="projects-title">Featured <span>Projects</span></h2>
+        <div class="featured-projects reveal">
+          <article class="featured-card"><div class="browser-preview food-preview"><div class="browser-bar"><span><i></i><i></i><i></i></span><small>food-ordering.app</small></div><b>F</b></div><div class="featured-content"><div><h3>Online food ordering</h3><p>A customer and admin platform for products, orders and role-based workflows.</p></div><div class="tags"><span>React</span><span>NestJS</span><span>Prisma</span><span>MySQL</span></div><a href="https://github.com/daihoc24/TieuLuan.git" target="_blank" rel="noreferrer">View source <b>↗</b></a></div></article>
+          <article class="featured-card"><div class="browser-preview movie-preview"><div class="browser-bar"><span><i></i><i></i><i></i></span><small>movie-booking-api.dev</small></div><b>M</b></div><div class="featured-content"><div><h3>Movie ticket booking API</h3><p>APIs for movies, cinemas, showtimes and ticket management with API documentation.</p></div><div class="tags"><span>NestJS</span><span>JWT</span><span>Swagger</span><span>MySQL</span></div><a href="https://github.com/huy-devsg/node36_cuoi_khoa_movie-api.git" target="_blank" rel="noreferrer">View source <b>↗</b></a></div></article>
+          <article class="featured-card"><div class="browser-preview lunch-preview"><div class="browser-bar"><span><i></i><i></i><i></i></span><small>selling-lunch.app</small></div><b>L</b></div><div class="featured-content"><div><h3>Selling lunch platform</h3><p>A practical food ordering experience with a React interface and layered .NET backend.</p></div><div class="tags"><span>React</span><span>.NET 8</span><span>C#</span><span>SQL Server</span></div><a href="https://github.com/ngtphan/sellinglunch-9.git" target="_blank" rel="noreferrer">View source <b>↗</b></a></div></article>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container">
+        <div class="contact-center reveal">
+          <span class="contact-orbit" aria-hidden="true"></span>
+          <p class="section-title"><span>//</span> Contact</p>
+          <h2>Let's build <em>something.</em></h2>
+          <p class="contact-intro">Open to fullstack roles, frontend opportunities and collaborations.</p>
+          <button class="email-copy" id="email-copy" type="button"><span>hoangquy4874@gmail.com</span><b aria-hidden="true">Copy</b></button>
+          <p class="copy-note" id="copy-note" aria-live="polite"></p>
+          <div class="social-buttons"><a href="mailto:hoangquy4874@gmail.com" aria-label="Send email">@</a><a href="https://github.com/daihoc24" target="_blank" rel="noreferrer" aria-label="GitHub"><img src="https://cdn.simpleicons.org/github/38bdf8" alt="" /></a><a href="https://www.linkedin.com/in/qu%C3%BD-ho%C3%A0ng-2a0a5334a/details/certifications/" target="_blank" rel="noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.37 3.33a2.37 2.37 0 1 1 0 4.74 2.37 2.37 0 0 1 0-4.74ZM3.32 9.92h4.1V21H3.32V9.92ZM9.99 9.92h3.93v1.51h.06c.55-1.04 1.89-2.14 3.89-2.14 4.16 0 4.93 2.74 4.93 6.3V21h-4.1v-4.8c0-1.15-.02-2.62-1.6-2.62-1.6 0-1.84 1.25-1.84 2.54V21H11.16V9.92h-1.17Z" /></svg></a></div>
+        </div>
+      </section>
+    </main>
+    <footer>© 2026 Nguyen Hoang Quy · Built with care</footer>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+    <script src="script.js"></script>
+  </body>
+</html>
